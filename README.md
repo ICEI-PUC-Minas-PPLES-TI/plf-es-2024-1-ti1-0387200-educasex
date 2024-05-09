@@ -1,5 +1,4 @@
-# EducaSex
-
+# Nome do projeto
 Temos diversos objetivos a serem alcancados, Sendo os principais: preparar os adolescentes para a vida sexual de forma segura e consciente, diminuir a desinformação e introduzir esse tema polêmico em diversas bolhas de jovens e adultos que mesmo com uma certa idade ainda não possuam o total conhecimento sobre o assunto
 
 ## Alunos integrantes da equipe
