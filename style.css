@@ -4,7 +4,7 @@
     box-sizing: border-box;
   }
   
-button {
+.button {
       cursor: pointer;
       background-color: cornflowerblue;
       color: #fff;
@@ -14,7 +14,12 @@ button {
       border-radius: 6px;
       height: 48px;
       padding: 0 32px;
+      transition: filter 0.2s;
   }
+
+.button:hover{
+  filter: brightness(0.8);
+}
   
 body {
     background-color: #121214;
@@ -65,4 +70,8 @@ body {
 
 .next-question{
   margin-top: 30px;
+}
+
+.hide{
+  display: none;
 }
