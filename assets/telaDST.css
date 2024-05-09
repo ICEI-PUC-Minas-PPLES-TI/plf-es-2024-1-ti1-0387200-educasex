@@ -1,0 +1,184 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 1em;
+}
+
+html,body {
+    height: 100%;
+}
+
+header {
+    grid-area: header;
+}
+
+nav {
+    grid-area: nav;
+}
+
+main {
+    grid-area: main;
+}
+
+footer {
+    grid-area: footer;
+}
+.container-fluid {
+    width: 100%;
+    min-height: 100vh;
+    display: grid;
+    grid: "nav" auto "header" auto "main" 1fr "footer" auto / 1fr;
+}
+.container-fluid>* {
+    width: 100%;
+    padding: 10px;
+    background-color: #FFF;
+}
+.nav {
+    display: flex;
+}
+
+nav,ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav,ul,li {
+    list-style: none;
+    margin-left: 5px;
+    font-size: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover {
+    background-color: lightblue;
+    border-radius: 5px;
+    padding: 6px;
+}
+.educa{
+    background-color: white;
+    font-size: 15px;
+}
+span {
+    background-color: snow;
+    padding: 6px;
+    border-radius: 5px;
+}
+
+.educa{
+    font-size: 50px;
+}
+
+
+nav ul li{
+    font-size: 40px;
+    margin-left: 10px;
+    padding: 10px;
+}
+.imagem h3 {
+    color: gray;
+}
+
+.imagem {
+    display: flex;
+}
+
+.texto {
+    margin-left: 10px;
+}
+
+
+.card {
+    margin-top: 15px;
+}
+
+.anatomia_f h3{
+    color: #02ba46;
+}
+.Anatomia_M h3{
+    color: #02ba46;
+}
+.carrossel_f h3{
+    color:#02ba46; 
+}
+.carrossel_m{
+    color:blue;
+}
+
+.educa i{
+    font-size: 40px;
+}
+h2 i{
+    font-size: 25px;
+}
+
+.header h2{
+    font-size:40px;
+}
+
+.header i{
+    font-size: 40px;
+}
+
+.header img{
+    width: 1500px;
+    height: 500px;
+}
+.texto{
+    font-size:40px;
+}
+.texto h3{
+    font-size: 40px;
+}
+.anatomia_f h3{
+    font-size: 40px;
+}
+
+.anatomia_f img{
+    width: 100%;
+    height: 700px;
+}
+.anatomia_f p{
+    font-size: 35px;
+}
+.anatomia_f h5{
+    font-size: 40px;
+}
+
+.Anatomia_M img{
+    width: 100%;
+    height: 600px;
+}
+
+.Anatomia_M p{
+    font-size: 35px ;
+}
+.Anatomia_M h3{
+    font-size: 40px;
+}
+
+.carrossel_f h3{
+    font-size: 40px;
+}
+.carrossel_m h3{
+    font-size: 40px;
+}
+.links{
+    font-size: 30px;
+}
+
+footer{
+    font-size: 30px;
+}
+.Anatomia_M h5{
+    font-size: 40px;
+}
