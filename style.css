@@ -17,7 +17,7 @@
       transition: filter 0.2s;
   }
 
-.button:hover{
+.button:not(disabled):hover{
   filter: brightness(0.8);
 }
   
@@ -74,4 +74,16 @@ body {
 
 .hide{
   display: none;
+}
+
+.correct{
+  background-color: green;
+}
+
+.incorrect {
+  background-color: red;
+}
+
+.answer:disabled {
+  cursor: not-allowed
 }
