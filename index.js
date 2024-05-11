@@ -8,7 +8,7 @@ $startGameButton.addEventListener("click", startGame)
 $nextQuestionbutton.addEventListener("click", displayNextQuestion)
 
 let currentQuestionIndex = 0
-
+let totalcorrect = 0
 
 
 function startGame () {
@@ -18,13 +18,11 @@ function startGame () {
 }
 
 function displayNextQuestion (){
- while($answersContainer.firstChild){
-    $answersContainer.removeChild($answersContainer.firstChild)
- }
+ resetstate()
 
- 
- document.body.removeAttribute("class")
- $nextQuestionbutton.classList.add("hide")
+if (questions.length === currentQuestionIndex){
+   return finishgame ()
+}
  
  $questionText.textContent = questions[currentQuestionIndex].question
  questions[currentQuestionIndex].answers.forEach(answers => {
@@ -39,10 +37,21 @@ function displayNextQuestion (){
  })
 }
 
+function resetstate() {
+     while($answersContainer.firstChild){
+    $answersContainer.removeChild($answersContainer.firstChild)
+ }
+
+ 
+ document.body.removeAttribute("class")
+ $nextQuestionbutton.classList.add("hide")
+}
+
 function selectanswer(event){
 const answerclicked = event.target;
 if (answerclicked.dataset.correct){
     document.body.classList.add("correct")
+ totalcorrect++ 
 } else{
     document.body.classList.add("incorrect")
 }
@@ -58,7 +67,33 @@ button.disabled = true
  currentQuestionIndex++
 }
 
+function finishgame(){
+ const totalquestions = questions.length
+ const performance = Math.floor(totalcorrect *100 / totalquestions)
+ let message = ""
+ switch (true){
+    case(performance >= 90):
+    message = "Parabéns, você acertou todas as questões"
+    break
+    case(performance>= 70):
+    message = "Muito bom"
+    break
+    case(performance >= 50):
+    message = "Bom"
+    break
+    default:
+        message = "Podemos estudar mais para melhorar"
+}
 
+$questionsContainer.innerHTML = 
+`
+ <p class="final-message">Você acertou ${totalcorrect} de ${totalquestions} questões
+ <span>Resultado: ${message}</span>
+ </p>
+ <button onclick=window.location.reload() class="button">Refazer o teste</button>
+`
+
+}
 
 
 

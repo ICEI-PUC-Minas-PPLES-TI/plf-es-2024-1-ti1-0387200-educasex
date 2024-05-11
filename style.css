@@ -87,3 +87,13 @@ body {
 .answer:disabled {
   cursor: not-allowed
 }
+
+.final-massage{
+  font-size: 20px;
+  text-align: center;
+}
+
+.final-massage span {
+  display: block;
+  margin-top: 8px ;
+}
