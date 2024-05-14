@@ -1,0 +1,91 @@
+{
+    "titulo": "Anatomia",
+    "links_css": [
+      "./assets/main.css",
+      "https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    ],
+    "links_js": [
+      "https://kit.fontawesome.com/1a985785a6.js"
+    ],
+    "menu": {
+      "logo": "EducaSex",
+      "itens": [
+        {
+          "titulo": "Anatomia Feminina",
+          "icone": "fa-solid fa-child-dress"
+        },
+        {
+          "titulo": "Anatomia Masculina",
+          "icone": "fa-solid fa-child"
+        },
+        {
+          "titulo": "Videos Sobre",
+          "icone": "fa-solid fa-video"
+        }
+      ]
+    },
+    "header": {
+      "titulo": "Anatomia",
+      "icone": "fa-solid fa-notes-medical",
+      "imagem": "./assets/imgANATOMIA/img1anatomia.avif",
+      "sobre": {
+        "titulo": "Sobre",
+        "conteudo": "A anatomia sexual é o estudo da estrutura física dos órgãos sexuais, tanto masculinos quanto femininos, e como eles funcionam em conjunto para a reprodução e o prazer sexual. No corpo masculino, os principais órgãos sexuais incluem o pênis, os testículos e a próstata, enquanto no corpo feminino destacam-se a vagina, o útero, os ovários e o clitóris. Esses órgãos desempenham papéis cruciais na reprodução e no prazer sexual. Compreender a anatomia sexual promove uma sexualidade saudável e respeitosa, reconhecendo a diversidade e a individualidade de cada pessoa."
+      }
+    },
+    "Sessão 1": {
+      "titulo": "Anatomia Feminina",
+      "cards": [
+        {
+          "imagem": "./assets/imgANATOMIA/vagina.jpg",
+          "titulo": "Vagina",
+          "conteudo": "A vagina é uma parte incrível e complexa do corpo feminino, essencial para a saúde e bem-estar das mulheres. Mais do que apenas uma estrutura anatômica, a vagina desempenha papéis importantes na reprodução, no prazer sexual e na saúde geral..."
+        },
+        {
+          "imagem": "./assets/imgANATOMIA/peitos.png",
+          "titulo": "Mamas",
+          "conteudo": "As mamas, ou seios, são uma parte distinta do corpo feminino, desempenhando papéis importantes na saúde e na sexualidade das mulheres. Para além da sua função biológica na amamentação, as mamas também desempenham um papel significativo na autoestima, na identidade sexual e no prazer durante a atividade sexual..."
+        },
+        {
+          "imagem": "./assets/imgANATOMIA/mentruação.jpg",
+          "titulo": "Menstruação",
+          "conteudo": "A menstruação, muitas vezes referida como o período, é um aspecto natural e saudável do ciclo reprodutivo feminino. Este processo complexo envolve a descamação mensal do revestimento do útero, o que resulta na liberação de sangue e tecido através da vagina..."
+        }
+      ]
+    },
+    "Sessão 2": {
+      "titulo": "Anatomia Masculina",
+      "cards": [
+        {
+          "imagem": "./assets/imgANATOMIA/penis.jpg",
+          "titulo": "Pênis",
+          "conteudo": "O pênis é uma parte vital do corpo masculino, desempenhando papéis importantes na reprodução, na micção e no prazer sexual..."
+        },
+        {
+          "imagem": "./assets/imgANATOMIA/puberdade.jpg",
+          "titulo": "Puberdade",
+          "conteudo": "Durante a puberdade masculina, meninos experimentam uma série de mudanças físicas, emocionais e sociais que marcam sua transição para a idade adulta..."
+        },
+        {
+          "imagem": "./assets/imgANATOMIA/prazeres_m.jpg",
+          "titulo": "Prazeres Masculinos",
+          "conteudo": "Os prazeres masculinos na esfera sexual são diversos e multifacetados, refletindo a complexidade e individualidade de cada pessoa..."
+        }
+      ]
+    },
+    "videos_femininos": [
+      "https://youtu.be/ymNSJcVNkFY",
+      "https://youtu.be/MpCFEfQcMbM",
+      "https://youtu.be/ja2HfyiGC9A",
+      "https://youtu.be/8h-PoFtAM20",
+      "https://youtu.be/ePrCjSkJbgw"
+    ],
+    "videos_masculinos": [
+      "https://youtu.be/Dd3m78OMHwI",
+      "https://youtu.be/jFjPO4hQSYQ",
+      "https://youtu.be/QV53kHAtZ-k",
+      "https://youtu.be/MQesxF2DRq8"
+    ],
+    "footer": "Todos os direitos reservados para EducaSex-2024"
+  }
+  

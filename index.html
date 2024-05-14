@@ -29,7 +29,7 @@
             <h2>Anatomia <i class="fa-solid fa-notes-medical"></i></h2>
             <hr>
             <div class="imagem">
-                <img src="./assets/imgANATOMIA/as-pessoas-estao-estudando-educacao-sexual-aula-de-biologia-humana-e-anatomia-licao-de-saude-sexual-para-jovens-contracepcao-e-sistema-reprodutor-masculino-orgao-interno-do-corpo-sexualidade-e-gener.jpg"
+                <img src="./assets/imgANATOMIA/img1 anatomia.avif"
                     alt="perfil" height="250px">
                 <div class="texto">
                     <h3>Sobre</h3>
@@ -376,6 +376,16 @@
     </div>
 
     </main>
+    <script>
+       
+        fetch('data.json')
+            .then(response => response.json()) 
+            .then(data => {
+              
+                console.log(data);
+            })
+            .catch(error => console.error('Ocorreu um erro ao obter os dados:', error));
+    </script>
 
 </body>
 
