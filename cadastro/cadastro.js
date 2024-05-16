@@ -36,10 +36,14 @@ function incluirPergunta() {
 
         objDados.perguntas.push (NovaPergunta);
 
-        salvaPerguntas(objDados)
+        salvaPerguntas(objDados);
+        let confirmacao = confirm('sua pergunta foi salva!');
+        if (confirmacao) window.location.reload();
+        
     }
 
 
 //config dos botoes
 document.getElementById ('incluirPergunta').addEventListener ('click', incluirPergunta);
 document.getElementById ('Salvar').addEventListener ('click', leDados);
+
