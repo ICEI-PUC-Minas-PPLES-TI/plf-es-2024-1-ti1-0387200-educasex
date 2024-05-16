@@ -10,12 +10,20 @@ $nextQuestionbutton.addEventListener("click", displayNextQuestion)
 let currentQuestionIndex = 0
 let totalcorrect = 0
 
+let questions;
 
-function startGame () {
+function startGame (){
+ questions = leDados()
+ console.log(questions)
+    if (questions === undefined){
+        window.alert ("Não possui quiz")
+        return}
     $startGameButton.classList.add("hide")
     $questionsContainer.classList.remove("hide")
+ 
     displayNextQuestion()
 }
+
 
 function displayNextQuestion (){
  resetstate()
@@ -96,8 +104,7 @@ $questionsContainer.innerHTML =
 }
 
 
-
-const questions = [
+const aaaaa = [
     {
         question: "Primeira Pergunta",
         answers: [
@@ -110,9 +117,9 @@ const questions = [
 {
     question: "Segunda Pergunta",
     answers: [
-        { text: "Resposta 1" , correct: false},
+        { text: "Resposta 1" , correct: true},
         { text: "Resposta 2" , correct: false},
-        { text: "Resposta 3" , correct: true},
+        { text: "Resposta 3" , correct: false},
         { text: "Resposta 4" , correct: false}
     ]
 },
@@ -121,8 +128,8 @@ const questions = [
     answers: [
         { text: "Resposta 1" , correct: false},
         { text: "Resposta 2" , correct: false},
-        { text: "Resposta 3" , correct: true},
-        { text: "Resposta 4" , correct: false}
+        { text: "Resposta 3" , correct: false},
+        { text: "Resposta 4" , correct: true}
     ]
 },
 {
@@ -136,3 +143,19 @@ const questions = [
 },
 
 ]
+
+
+function leDados() {
+    //le os dados já existentes, cadastrados por aquele usuário
+    let strDados = localStorage.getItem('db');
+    let objDados = {};
+
+    if (strDados) {
+        objDados = JSON.parse(strDados);
+    }
+    else {
+        objDados = { perguntas: [{}] }
+    }
+
+    return objDados;
+}
