@@ -1,7 +1,7 @@
 *{
     padding: 0;
-    margin: 0;
-    border: 0;
+    margin: 1px;
+    border: 10px;
     box-sizing: border-box;
 }
 html{
@@ -61,4 +61,14 @@ nav a:hover{
 
 .header h3{
     padding-top: 5px;
+    text-align: center;
+}
+
+footer{
+    background-color: #ccc;
+    padding: 2px;
+}
+
+.card{
+    display:flex;
 }
