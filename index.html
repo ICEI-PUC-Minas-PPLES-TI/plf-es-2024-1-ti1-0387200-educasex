@@ -10,9 +10,14 @@
 <body>
     <div class="container">
 
+        <div class="image-container">
+            <img class="img1" src="assets/img/imagem1.png" alt="Imagem1">
+            <img class="logo" src="assets/img/logo.png" alt="logo">
+        </div>
+
         <div class="form">
 
-            <form action="#">
+            <form id="form">
                 <div class="form-header">
                    
                     <div class="title">
@@ -52,12 +57,12 @@
 
                     <div class="input-box">
                         <label for="Number">Celular</label>
-                        <input id="Number" type="tel" name="Number" placeholder="(xx) xxxxx-xxxx" required>
+                        <input id="Number" type="tel" name="Number" placeholder="(xx) xxxxxxxxx" required>
                     </div>
 
                     <div class="input-box">
-                        <label for="Number">Celular 2</label>
-                        <input id="Number" type="tel" name="Number" placeholder="(xx) xxxxx-xxxx" required>
+                        <label for="Number2">Celular 2</label>
+                        <input id="Number2" type="tel" name="Number2" placeholder="(xx) xxxxxxxxx" required>
                     </div>
 
                     <div class="input-box">
@@ -66,8 +71,8 @@
                     </div>
 
                     <div class="input-box">
-                        <label for="password">Confirme sua senha</label>
-                        <input id="password" type="password" name="Confirmpassword" placeholder="Digite sua senha" required>
+                        <label for="Confirmpassword">Confirme sua senha</label>
+                        <input id="Confirmpassword" type="password" name="Confirmpassword" placeholder="Digite sua senha" required>
                     </div>
 
                 </div>
@@ -133,7 +138,7 @@
                     </div>
 
                     <div class="button-container">
-                        <button type="submit"><a href="#">Continuar</a></button>
+                        <button type="submit"><a href="link página inicial">Continuar</a></button>
                     </div>
                     
                 </div>
@@ -142,7 +147,13 @@
 
         </div>
 
+        <div id="sucesso-message" style="display: none;">
+            Usuário cadastrado com sucesso!
+        </div>
+
     </div>
+
+    <script src="main.js"></script>
     
 </body>
 
