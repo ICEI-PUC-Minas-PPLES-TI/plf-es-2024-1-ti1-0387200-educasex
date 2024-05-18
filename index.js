@@ -4,20 +4,15 @@ const $answersContainer = document.querySelector(".answers-container")
 const $questionText = document.querySelector(".question")
 const $nextQuestionbutton = document.querySelector(".next-question")
 
-$startGameButton.addEventListener("click", startGame)
-$nextQuestionbutton.addEventListener("click", displayNextQuestion)
+
 
 let currentQuestionIndex = 0
 let totalcorrect = 0
 
-let questions;
+$startGameButton.addEventListener("click", startGame)
+$nextQuestionbutton.addEventListener("click", displayNextQuestion)
 
 function startGame (){
- questions = leDados()
- console.log(questions)
-    if (questions === undefined){
-        window.alert ("Não possui quiz")
-        return}
     $startGameButton.classList.add("hide")
     $questionsContainer.classList.remove("hide")
  
@@ -104,58 +99,42 @@ $questionsContainer.innerHTML =
 }
 
 
-const aaaaa = [
+const questions = [
     {
-        question: "Primeira Pergunta",
+        question: "A sífilis é uma doença transmitida pela bactéria Treponema pallidum. Essa doença é caracterizada por:",
         answers: [
-            { text: "Resposta 1" , correct: false},
-            { text: "Resposta 2" , correct: false},
-            { text: "Resposta 3" , correct: true},
-            { text: "Resposta 4" , correct: false}
+            { text: "Feridas nos órgãos sexuais, conhecidas por cancro duro." , correct: true},
+            { text: "Inflamação no canal da uretra" , correct: false},
+            { text: "Baixa na imunidade do portador." , correct: false},
+            { text: "Lesões dolorosas." , correct: false}
         ]
     },
 {
-    question: "Segunda Pergunta",
+    question: "O HIV é o vírus causador da AIDS. Essa doença ataca o sistema imunológico, deixando a pessoa mais suscetível a doenças chamadas de oportunistas. As células mais atingidas por esse vírus são:",
     answers: [
-        { text: "Resposta 1" , correct: true},
-        { text: "Resposta 2" , correct: false},
-        { text: "Resposta 3" , correct: false},
-        { text: "Resposta 4" , correct: false}
+        { text: "Hemácias." , correct: false},
+        { text: "Plaquetas" , correct: false},
+        { text: " Linfócitos T." , correct: true},
+        { text: "Linfócitos B." , correct: false}
     ]
 },
 {
-    question: "Terceira Pergunta",
+    question: "As doenças sexualmente transmissíveis podem ser causadas por diferentes agentes, tais como fungos, vírus, bactérias e protozoários. Entre as doenças abaixo, marque a única causada por um protozoário.",
     answers: [
-        { text: "Resposta 1" , correct: false},
-        { text: "Resposta 2" , correct: false},
-        { text: "Resposta 3" , correct: false},
-        { text: "Resposta 4" , correct: true}
+        { text: "Aids." , correct: false},
+        { text: "Tricomoníase." , correct: true},
+        { text: "Hepatite." , correct: false},
+        { text: "Candidíase." , correct: false}
     ]
 },
 {
-    question: "Quarta Pergunta",
+    question: "A Aids é uma doença que se caracteriza pelo enfraquecimento do sistema imunológico, o que desencadeia o surgimento de doenças oportunistas. Sobre a Aids, marque a alternativa correta:",
     answers: [
-        { text: "Resposta 1" , correct: false},
-        { text: "Resposta 2" , correct: false},
-        { text: "Resposta 3" , correct: true},
-        { text: "Resposta 4" , correct: false}
+        { text: " A Aids é causada por um vírus chamado de HPV." , correct: true},
+        { text: "A Aids é transmitida exclusivamente por via sexual" , correct: false},
+        { text: " A Aids, se tratada precocemente, apresenta 100% de chances de cura." , correct: false},
+        { text: "O exame para detectar o vírus da Aids é feito por meio da coleta de sangue e não é disponível gratuitamente." , correct: false}
     ]
 },
 
 ]
-
-
-function leDados() {
-    //le os dados já existentes, cadastrados por aquele usuário
-    let strDados = localStorage.getItem('db');
-    let objDados = {};
-
-    if (strDados) {
-        objDados = JSON.parse(strDados);
-    }
-    else {
-        objDados = { perguntas: [{}] }
-    }
-
-    return objDados;
-}
