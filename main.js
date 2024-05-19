@@ -6,7 +6,7 @@ let ageInput = document.querySelector("#age");
 let birthdateInput = document.querySelector("#birthdate");
 let emailInput = document.querySelector("#email");
 let numberInput = document.querySelector("#Number");
-let number2Input = document.querySelector("#Number2");
+let locationInput = document.querySelector("#location");
 let passwordInput = document.querySelector("#password");
 let confirmPasswordInput = document.querySelector("#Confirmpassword");
 let genderInputs = document.querySelectorAll('input[name="gender"]');
@@ -19,7 +19,7 @@ form.addEventListener("submit", function(event) {
 
     // Verifica se todos os campos obrigatórios estão preenchidos
     if (!firstNameInput.value || !lastNameInput.value || !ageInput.value || !birthdateInput.value || 
-        !emailInput.value || !numberInput.value || !number2Input.value || !passwordInput.value || 
+        !emailInput.value || !numberInput.value || !locationInput.value || !passwordInput.value || 
         !confirmPasswordInput.value || !getSelectedValue(genderInputs)) {
         alert("Todos os campos obrigatórios devem ser preenchidos.");
         return;
@@ -46,7 +46,7 @@ form.addEventListener("submit", function(event) {
         return;
     }
 
-    if (!validatePhoneNumber(numberInput.value) || !validatePhoneNumber(number2Input.value)) {
+    if (!validatePhoneNumber(numberInput.value)) {
         alert("Número de telefone inválido!");
         return;
     }
@@ -65,7 +65,7 @@ form.addEventListener("submit", function(event) {
         birthdate: birthdateInput.value,
         email: emailInput.value,
         number: numberInput.value,
-        number2: number2Input.value,
+        location: locationInput.value,
         password: passwordInput.value,
         confirmPassword: confirmPasswordInput.value,
         gender: getSelectedValue(genderInputs),
