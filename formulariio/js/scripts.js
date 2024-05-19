@@ -6,86 +6,75 @@ const conteudoInput = document.querySelector("#conteudo")
 const linksiteInput = document.querySelector("#linksite")
 const linkimgInput = document.querySelector("#linkimg")
 
-form.addEventListener("submit", (event) =>{
+form.addEventListener("submit", (event) => {
     event.preventDefault();
 
-    if(nomeInput.value === ""){
+    if (nomeInput.value === "") {
         alert("Preencha o seu nome")
         return;
     }
 
-    if(emailInput.value === "" || !IsEmailValid(emailInput.value)){
+    if (emailInput.value === "" || !IsEmailValid(emailInput.value)) {
         alert("Preencha o seu email")
         return;
     }
 
-    //Validação de email
-    function IsEmailValid(email){
+    function IsEmailValid(email) {
         const emailRegex = new RegExp(
-            //usuario12@host.com.br
             /^[a-zA-Z0-9._-]+@[a-zA-Z0-9._-]+\.[a-zA-Z]{2,}/
         );
-    if(emailRegex.test(email)) {
-        return true
-    }
-        return false
+        return emailRegex.test(email);
     }
 
-    if(tituloInput.value === ""){
-         alert("Preencha o título")
+    if (tituloInput.value === "") {
+        alert("Preencha o título")
         return;
     }
 
-    if(conteudoInput.value === ""){
+    if (conteudoInput.value === "") {
         alert("Preencha o conteúdo")
         return;
     }
-    if(linkimgInput.value === ""){
+    if (linkimgInput.value === "") {
         alert("Coloque o link da imagem de capa")
         return;
     }
-    if(linksiteInput.value === ""){
+    if (linksiteInput.value === "") {
         alert("Coloque o link da página do artigo")
         return;
     }
-    //Se todos os campos estiverem corretamente preenchidos, envie o formulario
+
+    cadastrarConteudo();
     form.submit();
 });
 
-function cadastrarConteudo(){
-    var nome = document.getElementById("nome");
-    var email = document.getElementById("email");
-    var titulo = document.getElementById("titulo");
-    var conteudo = document.getElementById("conteudo");
-    var linkimg = document.getElementById("linkimg");
-    var linksite = document.getElementById("linksite");
+function cadastrarConteudo() {
+    var nome = document.getElementById("nome").value;
+    var email = document.getElementById("email").value;
+    var titulo = document.getElementById("titulo").value;
+    var conteudo = document.getElementById("conteudo").value;
+    var linkimg = document.getElementById("linkimg").value;
+    var linksite = document.getElementById("linksite").value;
 
-    var dados = JSON.parse(localStorage.getItem("dadosConteudo"));
-
-    if(dados == null){
-        localStorage.setItem("dadosConteudo","[]");
-        dados = [];
-
-    }
     var auxRegistro = {
-        nome: nome.value,
-        contato: email.value,
-        titulo: titulo.value,
-        conteudo: conteudo.value,
-        imagem: linkimg.value,
-        site: linksite.value
+        nome: nome,
+        contato: email,
+        titulo: titulo,
+        conteudo: conteudo,
+        imagem: linkimg,
+        site: linksite
     }
-    
-    dados.push(auxRegistro);
 
-    localStorage.setItem("dadosConteudo", JSON.stringify(dados));
-    alert("Conteúdo cadastrado com sucesso!")
+    // Use a timestamp como chave única para cada registro
+    var timestamp = new Date().getTime();
 
-    nome.value = "";
-    email.value = "";
-    titulo.value = "";
-    conteudo.value = "";
-    linkimg.value = "";
-    linksite.value = "";
-            
+    localStorage.setItem("conteudo_" + timestamp, JSON.stringify(auxRegistro));
+    alert("Conteúdo cadastrado com sucesso!");
+
+    document.getElementById("nome").value = "";
+    document.getElementById("email").value = "";
+    document.getElementById("titulo").value = "";
+    document.getElementById("conteudo").value = "";
+    document.getElementById("linkimg").value = "";
+    document.getElementById("linksite").value = "";
 }
