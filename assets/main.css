@@ -5,6 +5,33 @@
     box-sizing: border-box;
 }
 
+
+.card-title{
+    font-size: 2.2rem;
+}
+.card-text{
+    font-size: 30px;
+}
+.card-img-top{
+    height: 60vh;
+}
+
+#anatomia{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 4vh;
+}
+.card-group{
+    width: 31%;
+}
+
+main >h2{
+    text-align: center;
+    font-size: 45px;
+}
+
+
 html {
     font-size: 1em;
 }
@@ -101,8 +128,7 @@ nav ul li{
 .card {
     margin-top: 15px;
 }
-
-.anatomia_f h3{
+.anatomia-f-titulo {
     color: #fb4b68;
 }
 .Anatomia_M h3{
@@ -140,18 +166,18 @@ h2 i{
 .texto h3{
     font-size: 40px;
 }
-.anatomia_f h3{
+#anatomiaFeminina h3{
     font-size: 40px;
 }
 
-.anatomia_f img{
+#anatomiaFeminina img{
     width: 100%;
     height: 700px;
 }
-.anatomia_f p{
+#anatomiaFeminina p{
     font-size: 35px;
 }
-.anatomia_f h5{
+#anatomiaFeminina h5{
     font-size: 40px;
 }
 

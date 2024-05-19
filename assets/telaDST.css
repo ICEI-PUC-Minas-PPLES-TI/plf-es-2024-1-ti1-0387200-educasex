@@ -5,6 +5,41 @@
     box-sizing: border-box;
 }
 
+#doencas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 4vh;
+}
+.card-title{
+    font-size: 2.2rem;
+}
+.card-text{
+    font-size: 30px;
+}
+.card-img-top{
+    height: 60vh;
+}
+.card-group{
+    width: 31%;
+}
+
+main >h2{
+    text-align: center;
+    font-size: 45px;
+    
+}
+
+.main i{
+    font-size: 40px;
+    color: green;
+}
+
+
+
+
+
+
 html {
     font-size: 1em;
 }
