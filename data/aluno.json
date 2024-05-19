@@ -2,5 +2,11 @@
        "username": "Arthur Guedes",
        "location": "Belo Horizonte, Brasil",
        "QuizzesSolved": 7,
-       "ClassesWatched": 13
+       "ClassesWatched": 13,
+       "ClasseWeek0": "Quarta",
+       "ClasseTime0": "08:00 - 09:30",
+       "ClasseTopic0": "Doenças Sexuamente Transmissíveis",
+       "ClasseWeek1": "Sexta",
+       "ClasseTime1": "10:00 - 11:30",
+       "ClasseTopic1": "Métodos Contraceptivos"
 }
