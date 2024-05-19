@@ -39,7 +39,6 @@ function incluirPergunta() {
         salvaPerguntas(objDados);
         let confirmacao = confirm('sua pergunta foi salva!');
         if (confirmacao) window.location.reload();
-        
     }
 
 
