@@ -1,4 +1,4 @@
-fetch('../data/aluno.json')
+fetch('../../Sprint2/data/aluno.json')
   .then(response => response.json())
   .then(data => {
     // Atualiza os elementos HTML com os dados do JSON
