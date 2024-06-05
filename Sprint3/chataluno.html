@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat</title>
+    <link rel="stylesheet" href="assets/css/chataluno.css">
+</head>
+
+<body>
+    <!-- Script FontAwesome e BootsTrap-->
+    <script src="https://kit.fontawesome.com/adc897de4b.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+    <nav class="nav">
+        <span class="educa"> <a href="#">EducaSex</a>
+            <i class="fa-solid fa-book"></i></span>
+        <ul class="ulNav">
+            <li class="liNav"><a href="#">Pagina Principal</a></li>
+            <li class="liNav"><a href="#">Perfil</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div class="chat-container">
+            <div class="chat-header">
+                <h2>Você</h2>
+                <h2>Professor</h2>
+            </div>
+            <div class="chat-messages">
+                <ul id="messages">
+                    <!-- mensagens serão adicionadas aqui -->
+                </ul>
+            </div>
+            <div class="chat-input">
+                <input type="text" id="message-input" placeholder="Digite sua mensagem...">
+                <button id="send-button">Enviar</button>
+            </div>
+        </div>
+    </main>
+    <script src="js/chataluno.js"></script>
+</body>
+
+</html>
