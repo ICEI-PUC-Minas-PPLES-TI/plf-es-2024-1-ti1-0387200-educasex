@@ -85,3 +85,8 @@ header h1 {
     border-radius: 5px;
     padding: 6px;
   }
+
+  footer {
+    margin-top: 300px;
+    background-color: #ccc;
+  }
