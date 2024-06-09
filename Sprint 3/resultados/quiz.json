@@ -1,0 +1,34 @@
+[
+    {
+        "pergunta": "pergunta 1",
+        "acertos": 0
+    },
+    {
+        "pergunta": "pergunta 1",
+        "acertos": 1
+    },
+    {
+        "pergunta": "pergunta 1",
+        "acertos": 1
+    },
+    {
+        "pergunta": "pergunta 1",
+        "acertos": 1
+    },
+    {
+        "pergunta": "pergunta 2",
+        "acertos": 0
+    },
+    {
+        "pergunta": "pergunta 2",
+        "acertos": 1
+    },
+    {
+        "pergunta": "pergunta 2",
+        "acertos": 0
+    },
+    {
+        "pergunta": "pergunta 2",
+        "acertos": 0
+    }
+]
