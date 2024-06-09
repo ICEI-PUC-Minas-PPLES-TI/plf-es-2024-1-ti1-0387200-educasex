@@ -57,3 +57,16 @@ footer{
     margin-bottom: 25px;
     margin-right: 45px;
 }
+
+.foter{
+    padding: 50px;
+    background-color: grey;
+}
+
+.foter h6{
+    color: white;
+}
+
+footer{
+    margin-top: 500px;
+}
