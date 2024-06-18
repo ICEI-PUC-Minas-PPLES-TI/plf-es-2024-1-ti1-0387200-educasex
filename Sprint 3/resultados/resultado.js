@@ -85,5 +85,6 @@ async function ContarAcertos() {
 
 document.addEventListener('DOMContentLoaded', ContarQuiz);
 document.addEventListener('DOMContentLoaded', ContarAcertos);
+document.getElementById('carregaresultados').addEventListener('click', ContarAcertos);
 
 

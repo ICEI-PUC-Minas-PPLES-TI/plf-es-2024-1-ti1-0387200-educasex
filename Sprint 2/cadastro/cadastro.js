@@ -27,12 +27,14 @@ function incluirPergunta() {
     let strAlternativa2 = document.getElementById('alternativa2').value;
     let strAlternativa3 = document.getElementById('alternativa3').value;
     let strAlternativa4 = document.getElementById('alternativa4').value;
+    let strAlternativaCorreta = document.getElementById('correta').value;
     let NovaPergunta = {
         pergunta: strPergunta,
         alternativaA: strAlternativa1,
         alternativaB: strAlternativa2,
         alternativaC: strAlternativa3, 
-        alternativaD: strAlternativa4,}
+        alternativaD: strAlternativa4,
+        correta: strAlternativaCorreta, }
 
         objDados.perguntas.push (NovaPergunta);
 
@@ -44,5 +46,5 @@ function incluirPergunta() {
 
 //config dos botoes
 document.getElementById ('incluirPergunta').addEventListener ('click', incluirPergunta);
-document.getElementById ('Salvar').addEventListener ('click', leDados);
+
 

@@ -1,10 +1,11 @@
-html{
+html {
     font-family: Arial, sans-serif;
-
 }
-body{
+
+body {
     padding: 10px;
 }
+
 .nav {
     display: flex;
     padding: 10px;
@@ -40,41 +41,42 @@ nav a:hover {
     font-size: 20px;
 }
 
-input{
-    width: 500px;
-    padding: 5px;
-    border-radius: 1px;
+
+
+footer {
+    margin-top: 200px;
 }
 
-select{
-    padding: 5px;
-    border-radius: 1px;
-    padding: 5px;
-    color: blue;
-}
 
-h3{
-    color: blueviolet;
-}
-
-footer{
-    margin-top: 100px;
-    align-items: end;
-}
-
-a{
-    text-decoration: none;
-    color: white;
-}
-.foter{
+.foter {
     padding: 50px;
     background-color: grey;
 }
 
-.foter h6{
+.foter h6 {
     color: white;
 }
 
-footer{
-    margin-top: 300px;
+footer {
+    margin-top: 600px;
+}
+
+.question {
+    font-size: 20px;
+}
+
+.options {
+    margin-top: 15px;
+}
+
+.option {
+    display: block;
+    margin: 5px 0;
+}
+
+.correta {
+    background-color: #d4edda; 
+}
+.errada {
+    background-color: #f8d7da;
 }
