@@ -10,7 +10,7 @@ async function loadContacts() {
         const li = document.createElement('li');
         
         const a = document.createElement('a');
-        a.href = '../../Sprint3/chatprofessor.html';
+        a.href = '../../Sprint3/chataluno.html';
         
         const img = document.createElement('img');
         img.src = contact.avatar;
