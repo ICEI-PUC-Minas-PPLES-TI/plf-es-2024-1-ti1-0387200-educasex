@@ -1,0 +1,163 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.profile {
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    background-color: #F4EEEC;
+}
+
+.profile img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.profile h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.profile p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.stats {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-left: 50px;
+}
+
+.stat {
+    margin-right: 50px;
+}
+
+.stat p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.stat p:first-child {
+    font-weight: bold;
+}
+
+.stat p:last-child {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav {
+    display: flex;
+    padding: 10px;
+}
+
+nav,
+ul {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 10px;
+}
+
+nav,
+ul,
+li {
+    list-style: none;
+    margin-left: 15px;
+    font-size: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover {
+    background-color: lightcoral;
+    border-radius: 5px;
+    padding: 6px;
+}
+
+.educa {
+    font-size: 20px;
+}
+
+.classes {
+    padding: 50px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    background-color: #F4EEEC;
+  }
+  
+  thead, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  thead {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  tr:hover {
+    background-color: lightcoral;
+  }
+
+  footer {
+    grid-area: footer;
+    text-align: center;
+    padding: 10px;
+    background-color: lightcoral;
+    font-size: 1rem;
+    margin-top: 250px;
+}
+
+  #fixed-button {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    background-color: #ffa781;
+    border: none;
+    padding: 15px 32px;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.5s ease;
+  }
+  
+  #fixed-button:hover {
+    background-color: lightcoral;
+  }
+
+  #fixed-button a {
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    font-size: 16px;
+  }

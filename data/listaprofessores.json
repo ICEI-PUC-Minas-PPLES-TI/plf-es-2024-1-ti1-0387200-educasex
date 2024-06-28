@@ -1,0 +1,32 @@
+[
+    {
+      "id": 1,
+      "name": "Dr. Ana Silva",
+      "avatar": "../assets/imgs/educador",
+      "bio": "Especialidade: Educação Sexual e Saúde Pública"
+    },
+    {
+      "id": 2,
+      "name": "Prof. Marcos Oliveira",
+      "avatar": "../assets/imgs/educador",
+      "bio": "Especialidade: Psicologia da Sexualidade"
+    },
+    {
+        "id": 3,
+        "name": "Dra. Luísa Mendes",
+        "avatar": "../assets/imgs/educador",
+        "bio": "Especialidade: Pedagogia e Sexualidade Infantil"
+      },
+      {
+        "id": 4,
+        "name": "Dr. Ricardo Sousa",
+        "avatar": "../assets/imgs/educador",
+        "bio": "Especialidade: Sociologia da Sexualidade e Políticas de Gênero"
+      },
+      {
+        "id": 5,
+        "name": "Prof. Carla Albuquerque",
+        "avatar": "../assets/imgs/educador",
+        "bio": "Especialidade: Enfermagem e Educação em Saúde Sexual"
+      }
+  ]

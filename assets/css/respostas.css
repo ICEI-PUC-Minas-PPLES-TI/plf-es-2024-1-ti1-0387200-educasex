@@ -1,0 +1,60 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+#container {
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 600px;
+    margin: 0 auto;
+    margin-top: 200px;
+}
+
+#respostaInput {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 96%;
+}
+
+#respostasList {
+    list-style-type: none;
+    padding: 0;
+}
+
+#respostasList li {
+    background-color: #eee;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+#container a {
+    color: black;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: lightcoral;
+    color: white;
+    cursor: pointer;
+    width: 100px;
+}
+
+button:hover {
+    background-color: lightcoral;
+}
+
+footer {
+    grid-area: footer;
+    text-align: center;
+    padding: 10px;
+    background-color: lightcoral;
+    font-size: 1rem;
+    margin-top: 500px;
+}

@@ -1,0 +1,71 @@
+html {
+    font-family: Arial, sans-serif;
+}
+
+body {
+    padding: 10px;
+}
+
+.nav {
+    display: flex;
+    padding: 10px;
+}
+
+nav,
+ul {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 10px;
+}
+
+nav,
+ul,
+li {
+    list-style: none;
+    margin-left: 15px;
+    font-size: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover {
+    background-color: lightcoral;
+    border-radius: 5px;
+    padding: 6px;
+}
+
+.educa {
+    font-size: 20px;
+}
+
+footer {
+    grid-area: footer;
+    text-align: center;
+    padding: 10px;
+    background-color: lightcoral;
+    font-size: 1rem;
+    margin-top: 20px;
+}
+
+.question {
+    font-size: 20px;
+}
+
+.options {
+    margin-top: 15px;
+}
+
+.option {
+    display: block;
+    margin: 5px 0;
+}
+
+.correta {
+    background-color: #d4edda; 
+}
+.errada {
+    background-color: #f8d7da;
+}

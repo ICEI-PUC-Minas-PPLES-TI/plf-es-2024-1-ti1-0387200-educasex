@@ -1,0 +1,35 @@
+[
+    {},
+    {
+        "pergunta": "Qual é a função principal dos testículos no sistema reprodutor masculino?",
+        "alternativaA": "Produzir hormônios sexuais masculinos",
+        "alternativaB": "Produzir espermatozoides",
+        "alternativaC": "Armazenar urina",
+        "alternativaD": "Eliminar toxinas do corpo",
+        "correta": "B"
+    },
+    {
+        "pergunta": "O que é a menstruação?",
+        "alternativaA": "A fase em que ocorre a liberação de óvulos maduros pelos ovários",
+        "alternativaB": "O processo de fertilização do óvulo pelo espermatozoide",
+        "alternativaC": "A eliminação mensal do revestimento do útero não utilizado",
+        "alternativaD": "A formação do feto no útero",
+        "correta": "C"
+    },
+    {
+        "pergunta": "O que é a menopausa?",
+        "alternativaA": "O período em que ocorre a primeira menstruação na vida de uma mulher",
+        "alternativaB": "A interrupção permanente da menstruação e da fertilidade",
+        "alternativaC": "O período em que ocorre a ovulação em uma mulher",
+        "alternativaD": "O ciclo mensal de fertilização no sistema reprodutor feminino",
+        "correta": "B"
+    },
+    {
+        "pergunta": "Qual das seguintes estruturas faz parte do sistema reprodutor feminino?",
+        "alternativaA": "Próstata",
+        "alternativaB": "Pênis",
+        "alternativaC": "Útero",
+        "alternativaD": "Epidídimo",
+        "correta": "C"
+    }
+]

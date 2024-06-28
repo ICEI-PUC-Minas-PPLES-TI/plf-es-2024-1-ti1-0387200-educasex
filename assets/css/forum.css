@@ -1,0 +1,91 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+nav{
+    justify-content: space-between;
+}
+
+nav,li{
+    list-style: none;
+    margin-left: 5px;
+    font-size: 20px;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}
+nav a:hover{
+    background-color: lightcoral;
+    border-radius: 5px;
+    padding: 4px;
+}
+
+.educa i{
+    font-size: 15px;
+}
+
+#container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 600px;
+    margin: 0 auto;
+}
+
+#perguntaForm {
+    display: flex;
+    flex-direction: column;
+}
+
+#perguntaInput {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+#respostaInput {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 96%;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: lightcoral;
+    color: white;
+    cursor: pointer;
+    width: 100px;
+}
+
+button:hover {
+    background-color: lightcoral;
+}
+
+#perguntasList {
+    list-style-type: none;
+    padding: 0;
+}
+
+#perguntasList li {
+    background-color: #eee;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+footer {
+    grid-area: footer;
+    text-align: center;
+    padding: 10px;
+    background-color: lightcoral;
+    font-size: 1rem;
+    margin-top: 500px;
+}

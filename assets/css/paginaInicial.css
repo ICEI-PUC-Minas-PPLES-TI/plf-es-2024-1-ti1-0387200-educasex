@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 1px;
+    border: 10px;
+    box-sizing: border-box;
+}
+html{
+    font-size: 1em;
+}
+html,body{
+    height: 100%;
+}
+header {
+    grid-area: header;
+}
+nav {
+    grid-area: nav;
+}
+main {
+    grid-area: main;
+}
+footer {
+    grid-area: footer;
+}
+.conteiner>*{
+    width: 100%;
+    padding: 10px;
+}
+.nav{
+    display: flex;
+}
+nav,ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav,ul,li{
+    list-style: none;
+    margin-left: 5px;
+    font-size: 20px;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}
+nav a:hover{
+    background-color: lightcoral;
+    border-radius: 5px;
+    padding: 4px;
+}
+
+.educa i{
+    font-size: 15px;
+}
+
+.header h1{
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+    font-style: normal;
+}
+
+.header h3{
+    padding-top: 5px;
+    text-align: center;
+}
+
+footer {
+    grid-area: footer;
+    text-align: center;
+    padding: 10px;
+    background-color: lightcoral;
+    font-size: 1rem;
+    margin-top: 80px;
+}
+
+.card{
+    display:flex;
+}
+.card img{
+    height: 400px;
+    
+}

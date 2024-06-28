@@ -1,0 +1,27 @@
+[
+    {
+      "id": 1,
+      "name": "Lucas Ferreira",
+      "avatar": "../assets/imgs/aluno.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Maria Santos",
+      "avatar": "../assets/imgs/aluno.jpg"
+    },
+    {
+        "id": 3,
+        "name": "João Ribeiro",
+        "avatar": "../assets/imgs/aluno.jpg"
+      },
+      {
+        "id": 4,
+        "name": "Bianca Nascimento",
+        "avatar": "../assets/imgs/aluno.jpg"
+      },
+      {
+        "id": 5,
+        "name": "Pedro Lima",
+        "avatar": "../assets/imgs/aluno.jpg"
+      }
+  ]

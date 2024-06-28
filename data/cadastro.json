@@ -1,0 +1,31 @@
+[
+    {},
+    {
+        "pergunta": "A sífilis é uma doença transmitida pela bactéria Treponema pallidum. Essa doença é caracterizada por:",
+        "alternativaA": "Feridas nos órgãos sexuais, conhecidas por cancro duro.",
+        "alternativaB": "Inflamação no canal da uretra",
+        "alternativaC": "Baixa na imunidade do portador.",
+        "alternativaD": "Lesões dolorosas."
+    },
+    {
+        "pergunta": "O HIV é o vírus causador da AIDS. Essa doença ataca o sistema imunológico, deixando a pessoa mais suscetível a doenças chamadas de oportunistas. As células mais atingidas por esse vírus são:",
+        "alternativaA": "Linfócitos T",
+        "alternativaB": "Plaquetas.",
+        "alternativaC": "Hemácias.",
+        "alternativaD": "Linfócitos B."
+    },
+    {
+        "pergunta": "As doenças sexualmente transmissíveis podem ser causadas por diferentes agentes, tais como fungos, vírus, bactérias e protozoários. Entre as doenças abaixo, marque a única causada por um protozoário.",
+        "alternativaA": "Tricomoníase.",
+        "alternativaB": "Aids",
+        "alternativaC": "Hepatite",
+        "alternativaD": "Candidíase"
+    },
+    {
+        "pergunta": "A Aids é uma doença que se caracteriza pelo enfraquecimento do sistema imunológico, o que desencadeia o surgimento de doenças oportunistas. Sobre a Aids, marque a alternativa correta:",
+        "alternativaA": "A Aids é causada por um vírus chamado de HPV",
+        "alternativaB": "A Aids é transmitida exclusivamente por via sexual.",
+        "alternativaC": "A Aids, se tratada precocemente, apresenta 100% de chances de cura.",
+        "alternativaD": "O exame para detectar o vírus da Aids é feito por meio da coleta de sangue e não é disponível gratuitamente"
+    }
+]

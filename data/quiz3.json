@@ -1,0 +1,35 @@
+[
+    {},
+    {
+        "pergunta": "Qual método contraceptivo é conhecido por bloquear fisicamente o caminho dos espermatozoides em direção ao útero?",
+        "alternativaA": "Pílula anticoncepcional",
+        "alternativaB": "Diafragma",
+        "alternativaC": "Preservativo masculino",
+        "alternativaD": "DIU (Dispositivo Intrauterino)",
+        "correta": "B"
+    },
+    {
+        "pergunta": "Qual método contraceptivo pode ser utilizado de forma hormonal ou não hormonal e é eficaz por até 3 anos?",
+        "alternativaA": "Implante subcutâneo",
+        "alternativaB": "Preservativo feminino",
+        "alternativaC": "Pílula anticoncepcional",
+        "alternativaD": "DIU (Dispositivo Intrauterino)",
+        "correta": "A"
+    },
+    {
+        "pergunta": "Qual método contraceptivo consiste na esterilização cirúrgica masculina?",
+        "alternativaA": "DIU (Dispositivo Intrauterino)",
+        "alternativaB": "Laqueadura tubária",
+        "alternativaC": "Vasectomia",
+        "alternativaD": "Diafragma",
+        "correta": "C"
+    },
+    {
+        "pergunta": "Qual método contraceptivo é considerado um dos mais eficazes na prevenção de DSTs (Doenças Sexualmente Transmissíveis)?",
+        "alternativaA": "Pílula anticoncepcional",
+        "alternativaB": "Preservativo masculino",
+        "alternativaC": "DIU (Dispositivo Intrauterino)",
+        "alternativaD": "Espermicida",
+        "correta": "B"
+    }
+]

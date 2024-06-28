@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(255, 225, 225);
+}
+
+.image-container {
+    flex: 0 0 auto;
+    margin-right: 20px;
+}
+
+.img1 {
+    max-width: 120px;
+    margin-left: 765px;
+    margin-bottom: -730px;
+    
+}
+
+.logo {
+    max-width: 160px;
+    margin-left: 745px;
+    margin-bottom: -655px;
+    
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-header {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.title h1 {
+    margin-bottom: 20px;
+    font-size: 28px;
+    color: black;
+    text-align: left;
+    border-bottom: 2px solid black; 
+    padding-bottom: 10px; 
+}
+
+.input-group {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: 20px;
+}
+
+.input-box {
+    margin-bottom: 30px;
+}
+
+.input-box label {
+    display: block;
+    font-size: 16px;
+    color: black;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.input-box input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+.gender-input,
+.preference-input,
+.personal-data {
+    margin-bottom: 45px;
+}
+
+.gender-inputs h4,
+.preference-inputs h4,
+.personal-data h4 {
+    font-size: 20px;
+    color: black;
+    text-align: left;
+}
+
+.preference-title, 
+.gender-title,
+.personal-data  {
+    margin-bottom: 22px;
+}
+
+.gender-group,
+.preference-group {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    grid-gap: 10px;
+}
+
+.gender-input,
+.preference-input {
+    display: flex;
+    align-items: center;
+}
+
+.gender-input input[type="radio"],
+.preference-input input[type="checkbox"] {
+    margin-right: 8px;
+}
+
+.button-container{
+    margin: 15px 0;
+}
+
+.button-container button{
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding: 10px;
+    text-align: center;
+    display: block;
+    font-size: 20px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    background-image: linear-gradient(to right, coral, lightcoral)
+
+}
+
+
+.button-container button:hover {
+    background-image: linear-gradient(to right, lightcoral, #aa076b)
+
+}
+
+#sucesso-message {
+    display: none; 
+    background-color: #a2ffdb; 
+    color: rgb(0, 0, 0);
+    padding: 15px; 
+    border-radius: 8px; 
+    text-align: center; 
+    font-size: 18px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    position: fixed; 
+    top: 0;
+    margin-bottom: 15px;
+    left: 50%; 
+    transform: translateX(-50%); 
+    width: 80%; 
+    max-width: 400px; 
+    z-index: 1000; 
+}
+
+
+
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .image-container {
+        margin-bottom: 20px;
+    }
+
+    .form-container {
+        width: 100%;
+        padding: 10px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .image-container {
+        display: none;
+    }
+}
+
+@media (max-width: 480px) {
+    .input-group {
+        grid-template-columns: 1fr;
+    }
+
+    .button-container button {
+        width: 100%;
+    }
+}
