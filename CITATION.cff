@@ -1,31 +1,28 @@
 cff-version: 1.0.1
 message: Please cite this software using these metadata.
-title: 
+title: EducaSex
 authors:
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names:
+  - family-names: Astolfi Cardoso
+    given-names: Arthur
+  - family-names: Vieira Veríssimo de Carvalho Ferreira
+    given-names: Daniel
+  - family-names: Tavares Dutra
+    given-names: Hugo
+  - family-names: Feitosa Oliveira
+    given-names: Pedro Lucca
   - name-suffix: Professor
     affiliation: PUC Minas
-    family-names: 
-    given-names: 
+    family-names: da Costa Silva
+    given-names: Luiz Henrique
   - name-suffix: Professor
     affiliation: PUC Minas
-    family-names: 
-    given-names: 
+    family-names: de Faria Barros 
+    given-names: Diego Augusto
 keywords:
-  - 
-  - 
-repository-code: 
+  - Saúde
+  - Educação
+  - Educação Sexual
+repository-code: https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2024-1-ti1-0387200-educasex
 license: CC-BY-4.0
 version: 1.0.0
 date-released: 2022-07-14
